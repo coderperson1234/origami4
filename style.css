@@ -1,0 +1,44 @@
+.boduyimg{
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 50px;
+    flex-direction:row;
+}
+
+.oragami{
+    border-radius:20px;
+    background-color:white;
+
+    width:310px;
+    font-family: fantasy;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    font-size:20px;
+    flex-direction:row;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+.oragami:hover{
+    transform:scale(1,2);
+
+}
+
+.Text{
+font-size:40px;
+}
